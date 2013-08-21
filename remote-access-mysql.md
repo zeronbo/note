@@ -4,7 +4,7 @@
 
 *   可通过在安装mysql服务的主机上登录mysql，然后在mysql库的user表中增加允许远程访问的配置；
 
-*   在user表中将已有的root用户信息的host字段（原来的值一般为localhost）更新为"%"，以一种通配符的方式重新进行设置；
+*   在user表中将已有的root用户信息的host字段(原来的值一般为localhost)更新为"%"，以一种通配符的方式重新进行设置；
 
 *   最后记得执行命令`flush privileges;`
     
